@@ -237,7 +237,7 @@ section {
   right:30px
 }
 
-#home-slider .fa-angle-down {
+#tohash {
   position: absolute;
   left: 50%;
   bottom: 50px;
@@ -270,68 +270,31 @@ section {
 }
 
 /*************************
-********Service CSS*******
-**************************/
-
-.service-icon {
-  border-radius: 4px;
-  color: #fff;
-  display: inline-block;
-  font-size: 36px;
-  height: 90px;
-  line-height: 90px;
-  width: 90px;
-  -webkit-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
-}
-
-.our-services .col-sm-4:hover .service-icon {
-  background-color: #333;
-}
-
-.our-services .col-sm-4 {
-  border-right:1px solid #f2f2f2;
-  border-bottom:1px solid #f2f2f2;
-  padding-bottom: 50px;
-}
-
-.our-services .col-sm-4:nth-child(4),
-.our-services .col-sm-4:nth-child(5),
-.our-services .col-sm-4:nth-child(6) {
-  border-bottom:0;
-  padding-top: 60px;
-}
-
-.our-services .col-sm-4:nth-child(3),
-.our-services .col-sm-4:nth-child(6) {
-  border-right:0;
-}
-
-.service-info h3 {
-  margin-top: 35px;
-}
-
-/*************************
 ********About CSS*******
 **************************/
-#about-us {
-  background-image: url(../images/about-bg.jpg);
+#about {
+  background-image: url(../assets/slider/zebra.jpg);
   padding: 60px 0;
+  text-decoration-color: #fff;
 }
 
-#about-us h2 {
+#about h2 {
   margin-top: 0;
   color: #fff;
 }
 
-#about-us .lead {
+#about .lead {
   font-size: 16px;
   margin-bottom: 10px;
   color: #000;
 }
 
-#about-us h1 {
+#about h1 {
   margin-bottom: 30px;
+}
+
+.skills-col-sm-6{
+  position: relative;
 }
 
 .progress{
@@ -489,11 +452,11 @@ section {
 /*************************
 *********Team CSS*********
 **************************/
-#team {
+#me {
   padding-top: 0;
 }
 
-.team-members {
+.me{
   margin-bottom: 25px;
 }
 
@@ -512,6 +475,8 @@ section {
 .social-icons ul li {
   float: left;
   margin-right: 8px;
+  display: inline;
+  text-align: center;
 }
 
 .social-icons ul li:last-child {
@@ -521,9 +486,10 @@ section {
 .social-icons ul li a {
   color:#fff;
   background-color: #d9d9d9;
-  height: 36px;
-  width: 36px;
-  line-height: 36px;
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  line-height: 50%;
   display: block;
   font-size: 16px;
   opacity: 0.8;
@@ -535,30 +501,36 @@ section {
   transform: scale(1.2);
 }
 
-.team-member {
+.me {
   text-align: center;
   color: #333;
   font-size: 14px;
 }
 
-.team-member:hover .social-icons ul li a.facebook {
+.me:hover .social-icons ul li a.instagram{
   background-color: #3b5999;
 }
-.team-member:hover .social-icons ul li a.twitter {
+.me:hover .social-icons ul li a.twitter {
   background-color: #2ac6f7;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
-.team-member:hover .social-icons ul li a.dribbble {
+.me:hover .social-icons ul li a.linkedin {
   background-color: #ff5b92;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
-.team-member:hover .social-icons ul li a.linkedin {
+.me:hover .social-icons ul li a.github {
   background-color: #036dc0;
-}
-.team-member:hover .social-icons ul li a.rss {
-  background-color: #ff6b00;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
-#team .img-responsive {
-  width: 100%;
+#me .img-responsive {
+  width: 50%;
 }
 
 .member-info h3 {
@@ -936,38 +908,58 @@ ul.address {
 
 #footer .social-icons ul {
   list-style: none;
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 
 #footer .social-icons ul li a {
-  background-color: rgba(0,0,0,.2);
-  border-radius: 4px;
-  line-height: 33px;
+  /*background-color: rgba(0,0,0,.2);*/
+  border-radius: 50%;
+  line-height: 50%;
+  height: 46px;
+  width: 46px;
 }
 
 #footer .social-icons ul li a:hover {
   color: #fff
 }
 
-#footer .social-icons ul li a.envelope:hover {
+#footer .social-icons ul li a.email:hover {
   background-color: #CECB26;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
-#footer .social-icons ul li a.facebook:hover {
+#footer .social-icons ul li a.instagram:hover {
   background-color: #3b5999;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 #footer .social-icons ul li a.twitter:hover {
   background-color: #2ac6f7;
-}
-#footer .social-icons ul li a.dribbble:hover {
-  background-color: #ff5b92;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 #footer .social-icons ul li a.linkedin:hover {
+  background-color: #ff5b92;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+#footer .social-icons ul li a.github:hover {
   background-color: #036dc0;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 #footer .social-icons ul li a.tumblr:hover {
   background-color: #ff6b00;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
 /*Presets*/
