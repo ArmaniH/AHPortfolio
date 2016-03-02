@@ -265,15 +265,20 @@ section {
   background-color: rgba(0,0,0,.2);
 }
 
-.navbar-brand h1 {
+.navbar-brand h1{
   margin-top: 5px;
 }
 
+/*.img-responsive {
+  max-width: 100%
+  height: auto;
+  position: relative;;
+}*/
 /*************************
 ********About CSS*******
 **************************/
 #about {
-  background-image: url(../assets/slider/zebra.jpg);
+  background-image: url(../assets/slider/blackboards.jpg);
   padding: 60px 0;
   text-decoration-color: #fff;
 }
@@ -286,15 +291,122 @@ section {
 #about .lead {
   font-size: 16px;
   margin-bottom: 10px;
-  color: #000;
+  color: #fff;
 }
 
-#about h1 {
+/*#about h1 {
   margin-bottom: 30px;
+}*/
+
+.me-image {
+  display: inline-block;
+  float: left;
+  max-width: 45%;
+  position: relative;
+  background-size: contain;
+}
+
+.me-img-responsive {
+  max-width: 50%;
+  height: auto;
+}
+
+.me-info {
+  display: inline-block;
+  margin: 5px;
+  float: right;
+  max-width: 50%
+}
+
+.me-info h3 {
+  margin-top: 5px;
+  /*display: inline-block;*/
+  /*float: left;*/
+  position: relative;
+}
+
+.me-info span {
+  text-decoration-color: #f7ca18;
+}
+
+.me-info p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #999;
+  display: inline-block;;
+  float: left;
+  position: relative;
+}
+
+.social-icons {
+  margin-top:15px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.social-icons ul {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.social-icons ul li {
+  float: left;
+  margin-right: 8px;
+  display: inline;
+  text-align: center;
+}
+
+.social-icons ul li:last-child {
+  margin-right: 0;
+}
+
+.social-icons ul li a {
+  color:#fff;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  line-height: 50%;
+  height: 46px;
+  width: 46px;
+  display: block;
+  /*font-size: 16px;*/
+  opacity: 0.8;
+}
+
+.social-icons ul li a:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.me:hover .social-icons ul li a.instagram{
+  background-color: #3b5999;
+}
+.me:hover .social-icons ul li a.twitter {
+  background-color: #2ac6f7;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.me:hover .social-icons ul li a.linkedin {
+  background-color: #ff5b92;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.me:hover .social-icons ul li a.github {
+  background-color: #036dc0;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .skills-col-sm-6{
-  position: relative;
+  /*position: absolute;*/
+  display: inline;
+  max-width: 100%;
 }
 
 .progress{
@@ -303,7 +415,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   -webkit-box-shadow: none;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .progress-bar{
@@ -452,257 +564,13 @@ section {
 /*************************
 *********Team CSS*********
 **************************/
-#me {
+/*#me {
   padding-top: 0;
 }
 
 .me{
   margin-bottom: 25px;
-}
-
-.social-icons {
-  margin-top:30px;
-  text-align: center;
-}
-
-.social-icons ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-}
-
-.social-icons ul li {
-  float: left;
-  margin-right: 8px;
-  display: inline;
-  text-align: center;
-}
-
-.social-icons ul li:last-child {
-  margin-right: 0;
-}
-
-.social-icons ul li a {
-  color:#fff;
-  background-color: #d9d9d9;
-  border-radius: 50%;
-  height: 46px;
-  width: 46px;
-  line-height: 50%;
-  display: block;
-  font-size: 16px;
-  opacity: 0.8;
-}
-
-.social-icons ul li a:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.me {
-  text-align: center;
-  color: #333;
-  font-size: 14px;
-}
-
-.me:hover .social-icons ul li a.instagram{
-  background-color: #3b5999;
-}
-.me:hover .social-icons ul li a.twitter {
-  background-color: #2ac6f7;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-.me:hover .social-icons ul li a.linkedin {
-  background-color: #ff5b92;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-.me:hover .social-icons ul li a.github {
-  background-color: #036dc0;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-
-#me .img-responsive {
-  width: 50%;
-}
-
-.member-info h3 {
-  margin-top: 35px;
-}
-
-.member-info h4 {
-  font-size: 14px;
-  margin-bottom: 15px;
-  color: #999;
-}
-
-
-/*************************
-*******Features CSS*******
-**************************/
-#features {
-  text-align: center;
-  background-image: url(../images/features-bg.jpg);
-}
-
-#features i {
-  font-size: 48px;
-}
-
-#features h3 {
-  margin-top: 15px;
-  font-size: 30px;
-  margin-bottom: 7px;
-  color: #fff;
-}
-
-#features .slider-overlay {
-  opacity: 0.8;
-}
-
-
-/*************************
-*****Pricing Table CSS****
-**************************/
-.pricing-table {
-  text-align: center;
-}
-
-.single-table {
-  padding: 30px 20px 20px;
-  border:1px solid #f2f2f2;
-}
-
-.single-table h3 {
-  margin-top: 0;
-  padding: 0;
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
-.price {
-  font-size: 36px;
-  line-height: 36px;
-}
-
-.price span {
-  font-size: 14px;
-  line-height: 14px;
-}
-
-.single-table ul {
-  list-style: none;
-  padding: 0;
-  margin: 30px 0;
-}
-
-.single-table ul li {
-  line-height: 30px;
-}
-
-.single-table.featured {
-  color: #fff;
-}
-
-.single-table.featured h3 {
-  color: #fff;
-}
-
-.single-table.featured .btn.btn-primary {
-  background-color: #fff;
-}
-
-/*************************
-********Twitter CSS*******
-**************************/
-#twitter {
-  background-image: url(../images/twitter-bg.jpg);
-}
-
-#twitter > div {
-  text-align: center;
-  position: relative;
-}
-
-#twitter-carousel {
-  position: relative;
-  z-index: 15
-}
-
-.twitter-icon {
-  position: relative;
-  z-index: 15;
-  color: #fff;
-}
-
-.twitter-icon .fa-twitter {
-  font-size: 24px;
-  height: 64px;
-  width: 64px;
-  line-height: 65px;
-  border-radius: 50%;
-  position: relative;
-}
-
-.twitter-icon .fa-twitter:after {
-  position: absolute;
-  content: "";
-  border-width: 8px;
-  border-style: solid;
-  left: 24px;
-  bottom: -14px;
-}
-
-#twitter-carousel .item {
-  padding: 0 55px;
-}
-
-#twitter-carousel .item a {
-  color: #fff;
-}
-
-.twitter-icon h4 {
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  color: #fff;
-}
-
-.twitter-left-control,
-.twitter-right-control {
-  position: absolute;
-  top: 50%;
-  color: #fff;
-  border: 1px solid #fafafa;
-  height:34px;
-  width: 34px;
-  line-height: 31px;
-  margin-top: -17px;
-  font-size: 18px;
-  border-radius: 50%;
-  z-index: 15
-}
-
-.twitter-left-control {
-  left: 80px;
-}
-
-.twitter-right-control {
-  right: 80px
-}
-
-.twitter-left-control:hover, .twitter-right-control:hover {
-  color: #fff;
-}
-
+}*/
 
 /*************************
 **********Blog CSS********
@@ -825,7 +693,7 @@ section {
 }
 
 #contact-us {
-  background-image:url(../assets/slider/zebra.jpg);
+  background-image:url(../assets/slider/lightbluetexture.jpg);
   padding-bottom: 90px;
 }
 
