@@ -695,12 +695,12 @@ section {
   height: 350px;
 }
 
-#contact-us {
-  background-image:url(../assets/slider/lightbluetexture.jpg);
+#contact-me {
+  background-image:url(../assets/slider/woodenboards.jpg);
   padding-bottom: 90px;
 }
 
-#contact-us .heading {
+#contact-me .heading {
   padding-top: 95px;
 }
 
