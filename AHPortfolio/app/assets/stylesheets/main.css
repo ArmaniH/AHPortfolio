@@ -91,7 +91,7 @@ section {
 }
 
 .heading {
-  padding-bottom:90px;
+  padding-bottom:30px;
 }
 
 .preloader {
@@ -441,6 +441,9 @@ section {
 #portfolio .col-sm-3  {
   overflow: hidden;
   padding: 0;
+  display: inline;
+  left: 12%;
+  /*right: 50%;*/
 }
 
 #portfolio .folio-item {
