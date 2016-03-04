@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #666;
   background-color: #fff;
@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .parallax {
@@ -284,16 +284,6 @@ section {
   text-align: center;
 }
 
-/*#about .lead {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #fff;
-}*/
-
-/*#about h1 {
-  margin-bottom: 30px;
-}*/
-
 .me-image {
   display: inline-block;
   /*float: left;*/
@@ -310,11 +300,9 @@ section {
 }
 
 .me-info {
-
   display: inline-block;
   margin: 5px;
   padding-left: 5px;
-  /*float: right;*/
   max-width: 50%;
   vertical-align: middle;
 }
@@ -332,7 +320,8 @@ section {
 }
 
 .me-info p {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
   margin-bottom: 10px;
   color: #999;
   display: inline-block;
@@ -345,6 +334,8 @@ section {
   float: left;
   display: inline-block;
   text-align: center;
+  margin: 5px;
+  padding-left: 5px;
 }
 
 .social-icons ul {
@@ -370,8 +361,6 @@ section {
 }*/
 
 .social-icons ul li a {
-  /*color:#fff;*/
-  /*background-color: #d9d9d9;*/
   border-radius: 50%;
   line-height: 50%;
   height: 46px;
@@ -457,7 +446,6 @@ section {
   padding: 0;
   display: inline;
   left: 12%;
-  /*right: 50%;*/
 }
 
 #portfolio .folio-item {
@@ -536,6 +524,7 @@ section {
 
 .folio-image img {
   width: 100%;
+  height: auto;
 }
 
 #portfolio .folio-item:hover .overlay {
@@ -579,17 +568,6 @@ section {
 }
 
 /*************************
-*********Team CSS*********
-**************************/
-/*#me {
-  padding-top: 0;
-}
-
-.me{
-  margin-bottom: 25px;
-}*/
-
-/*************************
 **********Blog CSS********
 **************************/
 #blog {
@@ -622,7 +600,7 @@ section {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .post-meta span {
@@ -657,12 +635,13 @@ section {
 
 .entry-header h3 a {
   line-height: 30px;
+  font-size: 36px;
 }
 
 .entry-header .date,
 .entry-header .cetagory {
   display: inline-block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -715,7 +694,7 @@ section {
 }
 
 #contact-me {
-  background-image:url(../assets/slider/woodenboards.jpg);
+  background-image:url(../assets/slider/darkboards.jpg);
   padding-bottom: 90px;
 }
 
@@ -728,12 +707,14 @@ section {
   border-color: rgba(255,255,255,.1);
   height: 50px;
   border-radius: 0;
+  border-width: medium;
   box-shadow: none;
 }
 
 textarea.form-control {
   min-height: 180px;
   resize:none;
+  text-decoration: #fff;
 }
 
 .form-group {
@@ -777,13 +758,13 @@ ul.address {
 
 .footer-top {
   position: relative;
-  padding:5px 0
+  padding:5px 0;
+  display: inline;
 }
 
 #footer .footer-bottom {
   background-color: #f7ca18;
   /*padding: 20px 0 10px;*/
-  display: inline;
 }
 
 #footer .footer-bottom a:hover {
