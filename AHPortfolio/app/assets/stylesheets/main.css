@@ -314,7 +314,7 @@ section {
   margin: 5px;
   padding: -150px 0 20px 15px;
   /*float: right;*/
-  max-width: 50%;
+  max-width: 60%;
   vertical-align: middle;
 }
 
@@ -334,7 +334,7 @@ section {
   font-size: 12px;
   margin-bottom: 10px;
   color: #999;
-  display: inline-block;;
+  display: inline-block;
   float: left;
   position: relative;
 }
@@ -348,7 +348,7 @@ section {
 
 .social-icons ul {
   list-style: none;
-  padding: 5px;
+  padding: 2px;
   margin: 0;
   display: inline-block;
   padding-left: 15%;
@@ -718,7 +718,7 @@ section {
 }
 
 #contact-me .heading {
-  padding-top: 95px;
+  padding-top: 75px;
 }
 
 .form-control {
@@ -770,41 +770,46 @@ ul.address {
 
 #footer {
   color:#fff;
+  background-color: #f7ca18;
 }
 
 .footer-top {
   position: relative;
-  padding:20px 0
+  padding:5px 0
 }
 
 #footer .footer-bottom {
-  background-color: #fff;
-  padding: 20px 0 10px;
+  background-color: #f7ca18;
+  /*padding: 20px 0 10px;*/
+  display: inline;
 }
 
 #footer .footer-bottom a:hover {
   text-decoration: underline;
 }
 
-.footer-logo {
+/*.footer-logo {
   display: inline-block;
   margin-bottom: 5px;
-}
+}*/
 
 #footer .social-icons {
-  margin-top: 15px;
+  margin-top: 2px;
+  position: relative;
   /*float: left;*/
-  /*display: inline-block;
+  /*display: inline-block;*/
   text-align: center;
   width: 100%
   left: 50%;
-  right: 50%;*/
+  background-color: #f7ca18;
 }
 
 #footer .social-icons ul {
   list-style: none;
-  padding: 5px;
-  margin: 0;
+  padding: 2px;
+  margin: auto;
+  display: inline-block;
+  left: 50%;
 }
 
 #footer .social-icons ul li a {
