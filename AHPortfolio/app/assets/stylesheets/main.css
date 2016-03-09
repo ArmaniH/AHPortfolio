@@ -217,7 +217,7 @@ section {
 }
 
 .left-control {
-  left: -51px
+  left: -51px;
 }
 
 .right-control {
@@ -722,7 +722,7 @@ textarea.form-control {
 }
 
 .contact-info {
-  padding-left:70px;
+  padding-left: 70px;
   font-weight: 300;
 }
 
