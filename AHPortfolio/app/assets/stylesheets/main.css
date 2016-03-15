@@ -9,6 +9,7 @@ body {
   line-height: 24px;
   color: #666;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,6 +63,10 @@ h3 {
 
 .btn.btn-primary:hover {
   background-color: #017fb5;
+}
+
+.main-nav {
+  overflow-x: hidden;
 }
 
 .navbar-nav li a:hover,
@@ -446,6 +451,7 @@ section {
   padding: 0;
   display: inline;
   left: 12%;
+  right: 12%;
 }
 
 #portfolio .folio-item {
@@ -523,8 +529,9 @@ section {
 }
 
 .folio-image img {
-  width: 100%;
+  width: 50%;
   height: auto;
+  width: auto;
 }
 
 #portfolio .folio-item:hover .overlay {
